@@ -1,4 +1,4 @@
-name: owasp-zap-api-scan
+name: owasp-zap-dast-scan
 on: push
 
 jobs:
@@ -10,4 +10,4 @@ jobs:
         uses: zaproxy/action-api-scan@v0.1.0
         with:
           format: openapi
-          target: 'https://zapsample.demo.community.intersystems.com/crudall/_spec'
+          target: 'http://demo.testfire.net/'
